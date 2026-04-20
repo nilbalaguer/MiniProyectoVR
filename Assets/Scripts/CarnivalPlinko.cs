@@ -57,7 +57,7 @@ public class CarnivalPlinko : MonoBehaviour {
 
     public void DropCoin() {
         currentCoin.DropCoin(this);
-        currentCoin = null;
         BellDing.Play();
+        currentCoin = null;
     }
 }
